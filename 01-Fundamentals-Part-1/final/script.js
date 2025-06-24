@@ -91,7 +91,7 @@ x++; // x = x + 1
 x--;
 x--;
 console.log(x);
-*/
+
 // Comparison operators
 console.log(ageJonas > ageSarah); // >, <, >=, <=
 console.log(ageSarah >= 18);
@@ -115,6 +115,7 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 */
+
 
 ////////////////////////////////////
 // Coding Challenge #1
@@ -151,6 +152,7 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 
 ////////////////////////////////////
 // Strings and Template Literals
+/*
 const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
