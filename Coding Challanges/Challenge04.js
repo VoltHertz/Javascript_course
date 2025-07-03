@@ -22,13 +22,13 @@ GOOD LUCK 😀
 */
 
 let bill = 275;
-let tip = 300 >= bill && bill >= 50 ? 0.15 : 0.20;
-console.log(`The bill was ${bill}, the tip was ${bill*tip}, and the total value ${bill*tip+bill}`);
+let tip = 300 >= bill && bill >= 50 ? bill*0.15 : bill*0.20;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${tip+bill}`);
 
 bill = 40;
-tip = 300 >= bill && bill >= 50 ? 0.15 : 0.20;
-console.log(`The bill was ${bill}, the tip was ${bill*tip}, and the total value ${bill*tip+bill}`);
+tip = 300 >= bill && bill >= 50 ? bill*0.15 : bill*0.20;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${tip+bill}`);
 
 bill = 430;
-tip = 300 >= bill && bill >= 50 ? 0.15 : 0.20;
-console.log(`The bill was ${bill}, the tip was ${bill*tip}, and the total value ${bill*tip+bill}`);
+tip = 300 >= bill && bill >= 50 ? bill*0.15 : bill*0.20;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${tip+bill}`);
